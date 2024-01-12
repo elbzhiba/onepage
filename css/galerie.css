@@ -1,0 +1,46 @@
+#header{
+    background-color: pink;
+   
+}
+
+#header nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    padding: 30px;
+}
+#header nav ul li {
+    font-size: 20PX;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    list-style-type:none;
+    font-weight: bold;
+
+}
+#header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+#header nav ul li a:hover {
+    color: beige;
+}
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+#gallery img{
+    margin-top: 20PX;
+    margin-bottom: 5px;
+}
+#gallery img:hover{
+    opacity:0.9;
+}
+/*#cover{
+    background: url(img/V.mp4) center center;
+    background-size: cover;
+    height: 80vh;
+}
+*/ 
