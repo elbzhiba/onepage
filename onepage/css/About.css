@@ -1,0 +1,95 @@
+#header {
+    background-color: #FDCEDF;
+    display: flex;
+    justify-content: space-between; /* Aligne les éléments à l'extrémité des deux côtés du header */
+    align-items: center; /* Aligne le contenu verticalement au centre */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 90px;
+    max-width: 100%;
+    margin-left: 30px; /* Ajoute de l'espace à droite du logo pour l'éloigner des autres éléments */
+}
+
+#header nav ul {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 0;
+}
+
+#header nav ul li {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#header nav ul li a:hover {
+    color: beige;
+}
+
+#title {
+   
+    height: 30vh;
+    text-align: center;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+}
+p{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+#cover{
+    background-color: #F8E8EE;
+    background-size: cover;
+    height: 30vh;
+}
+#header nav ul li a:hover {
+    color: beige;
+}
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+#gallery img{
+    margin-top: 20PX;
+    margin-bottom: 5px;
+}
+#gallery img:hover{
+    opacity:0.9;
+}
+footer {
+    background-color: #FDCEDF; /* Couleur de fond du footer */
+    color: black; /* Couleur du texte */
+    padding: 10px; /* Espacement interne */
+    text-align: center; 
+    position: fixed; /* Pour coller le footer en bas de la fenêtre du navigateur */
+    bottom: 0; /* Positionne le bas du footer à 0 pixels du bas */
+    width: 100%; /* Utilise la largeur complète de la fenêtre du navigateur */
+}
+
