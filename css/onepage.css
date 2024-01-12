@@ -33,15 +33,16 @@ body {
   }
   
   .btn-primary {
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: #ffa2f1;
+    padding: 25px 50px;
+    font-size: 60px;
+    background-color: #F2BED1;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+
   }
   
   .btn-primary:hover {
-    background-color: #eeb7e2;
+    background-color:  #FDCEDF;;
   }
   
